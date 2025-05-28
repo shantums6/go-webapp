@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: go-webapp
-        image: shantum6/go-webapp:{{ .values.image.tag }}
+        image: shantum6/go-webapp:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
